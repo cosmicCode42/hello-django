@@ -8,3 +8,6 @@ class TestModels(TestCase):
         item = Item.objects.create(name='Test Todo Item') # this creates a generic item for testing
         self.assertFalse(item.done)
         
+    def test_item_string_method_returns_name(self):
+        item = Item.objects.create(name='Test Todo Item')
+        self.assertEqual(str(item), 'Test Todo Item')
