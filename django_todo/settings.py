@@ -29,7 +29,10 @@ SECRET_KEY = 'django-insecure-e@f*9l!3d_t##rv-o_5ena$m8eus)22)pe*9s5-h7kcb2%z-^h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-cosmiccode4-hellodjango-cd7u4pasq04.ws-eu110.gitpod.io']
+ALLOWED_HOSTS = [
+    '8000-cosmiccode4-hellodjango-cd7u4pasq04.ws-eu110.gitpod.io',
+    'gabes-hello-django-attempt-cfe1d4da46a9.herokuapp.com'
+    ]
 
 
 # Application definition
